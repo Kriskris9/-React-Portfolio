@@ -1,20 +1,18 @@
 import React from "react";
+import '../styles/Footer.css';
 
 export default function Footer(){
   return (
     <footer>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <div className="social-icons">
-              <a href="https://github.com/developerusername" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/developerusername/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
-              <a href="https://stackoverflow.com/users/1234567/developerusername" target="_blank" rel="noopener noreferrer"><i className="fa fa-stack-overflow"></i></a>
+            <div >
+              <a href="https://github.com/Kriskris9" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"> </i> </a>
+              <a href="https://www.linkedin.com/in/kristina-ahn-266ba7274/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
               <a href="https://twitter.com/developerusername" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
             </div>
-          </div>
-        </div>
-      </div>
+       <p>© Copyright 2023 Kristina Ahn</p>
+      
     </footer>
   );
-};
+}
+
+

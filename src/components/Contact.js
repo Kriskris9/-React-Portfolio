@@ -1,5 +1,7 @@
 
 import React, { useState } from 'react';
+import '../styles/Contact.css';
+
 
 export default function ContactMe() {
   const [name, setName] = useState('');
@@ -38,6 +40,8 @@ export default function ContactMe() {
   }
 
   return (
+    <div className="contact-container">
+      <h2> Contact Me </h2>
     <form onSubmit={handleSubmit}>
       <label>
         Name:
@@ -54,5 +58,6 @@ export default function ContactMe() {
       </label>
       <button type="submit">Submit</button>
     </form>
+    </div>
   );
 }

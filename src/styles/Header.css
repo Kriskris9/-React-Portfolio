@@ -1,0 +1,43 @@
+header {
+  background-color: #b578ff;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+
+  
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  
+}
+
+li {
+  margin-right: 20px;
+}
+
+
+
+a:hover {
+  color: #e76bf7;
+}
+
+.navLinks {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}

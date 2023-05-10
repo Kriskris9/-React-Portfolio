@@ -1,0 +1,34 @@
+.AboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffd9f5;
+  }
+  
+  .profilePicture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .aboutMe {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0c4f6;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .aboutMeTitle{
+    font-size: 36px;
+    text-align: center;
+    margin: 40px;
+  }
