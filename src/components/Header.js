@@ -3,9 +3,6 @@ import React from 'react';
 import './pages/styles/Header.css'
 
 function Header({ currentPage, handlePageChange }) {
-    const changeColor = (e) => {
-        e.target.classList.add("blue-color");
-      };
 
     return (
         <header className="text-center ">
@@ -17,7 +14,7 @@ function Header({ currentPage, handlePageChange }) {
                             href="#AboutMe"
                             onClick={(e) => {
                                 handlePageChange('AboutMe');
-                                changeColor(e);
+                        
                             }}
                             className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
                         >
@@ -29,7 +26,7 @@ function Header({ currentPage, handlePageChange }) {
                             href="#Resume"
                             onClick={(e) => {
                                 handlePageChange('Resume');
-                                changeColor(e);
+                        
                             }}
                             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                         >
@@ -41,7 +38,7 @@ function Header({ currentPage, handlePageChange }) {
                             href="#Portfolio"
                             onClick={(e) => {
                                 handlePageChange('Portfolio');
-                                changeColor(e);
+                
                             }}
                             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                         >
@@ -53,7 +50,7 @@ function Header({ currentPage, handlePageChange }) {
                             href="#Contact"
                             onClick={(e) => {
                                 handlePageChange('Contact');
-                                changeColor(e);
+                         
                             }}
                             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                         >

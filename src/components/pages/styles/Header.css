@@ -43,9 +43,7 @@ nav li  {
 
 }
 
-.blue-color {
-  color: blue;
+.active {
+  color: red!important;
 }
-
-
 

@@ -23,12 +23,14 @@ This project is licensed under the MIT license.
 
 ## Assets
 
-![alt]()
-![alt]()
-![alt]()
-![alt]()
+![alt](./src/assets/9.png)
+![alt](./src/assets/10.png)
+![alt](./src/assets/11.png)
+![alt](./src/assets/8.png)
 
 ## Deployed Link 
 
 
 <!-- add deployed Link and Images of Application -->
+
+(./assets/Screenshots/1.png)
