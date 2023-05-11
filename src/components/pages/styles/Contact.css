@@ -20,7 +20,7 @@
   }
   
   form input[type="email"] {
-    border-color: ${emailError ? 'red' : '#ccc'};
+    border-color:  #ccc;
   }
   
   form button[type="submit"] {

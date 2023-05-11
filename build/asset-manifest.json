@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.0a84052c.css",
+    "main.js": "/React-Portfolio/static/js/main.635c240e.js",
+    "static/media/6.png": "/React-Portfolio/static/media/6.4c50d101928e43bdf001.png",
+    "static/media/1.png": "/React-Portfolio/static/media/1.da59148dca7de963a2ab.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/React-Portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/3.png": "/React-Portfolio/static/media/3.f89500a67cc465fd39d4.png",
+    "static/media/fontawesome-webfont.eot": "/React-Portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/React-Portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/2.png": "/React-Portfolio/static/media/2.ad452da18698d7a61bed.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/React-Portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/4.png": "/React-Portfolio/static/media/4.66f766d2489d721cc388.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/React-Portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/7.png": "/React-Portfolio/static/media/7.2db46ab9153a5571e52c.png",
+    "static/media/5.png": "/React-Portfolio/static/media/5.44152d49ec47de113908.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.0a84052c.css.map": "/React-Portfolio/static/css/main.0a84052c.css.map",
+    "main.635c240e.js.map": "/React-Portfolio/static/js/main.635c240e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a84052c.css",
+    "static/js/main.635c240e.js"
+  ]
+}

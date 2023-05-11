@@ -30,7 +30,4 @@ This project is licensed under the MIT license.
 
 ## Deployed Link 
 
-
-<!-- add deployed Link and Images of Application -->
-
-(./assets/Screenshots/1.png)
+https://kriskris9.github.io/React-Portfolio/ 
