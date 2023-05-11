@@ -32,12 +32,20 @@ li {
 
 
 
-a:hover {
+nav li a:hover {
   color: #e76bf7;
 }
 
-.navLinks {
-  color: #fff;
+nav li  {
+  color: #fcf5f5;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+
 }
+
+.blue-color {
+  color: blue;
+}
+
+
+

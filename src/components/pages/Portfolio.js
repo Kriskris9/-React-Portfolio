@@ -1,7 +1,13 @@
 
 
 import React from "react";
-import '../styles/Portfolio.css';
+import "../pages/styles/Portfolio.css";
+import img2 from "../../assets/2.png"
+import img3 from "../../assets/3.png"
+import img4 from "../../assets/4.png"
+import img5 from "../../assets/5.png"
+import img6 from "../../assets/6.png"
+import img7 from "../../assets/7.png"
 
 function Portfolio() {
     return (
@@ -13,7 +19,7 @@ function Portfolio() {
             <div className="project">
                
                 <a href="https://sleepy-caverns-11679.herokuapp.com/">
-                    <img src="https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt=" Kristina Ahn"/>
+                    <img src= {img2} alt=" Kristina Ahn"/>
                 </a>
                 <h3> Bryan's Coding Minions </h3>
                 <div className="project-links">
@@ -23,7 +29,7 @@ function Portfolio() {
             </div>
             <div className="project">
                 <a href="https://kriskris9.github.io/GigGrabber-by-KAMJ/">
-                <img src="https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt=" Kristina Ahn"/>
+                <img src={img6} alt=" Kristina Ahn"/>
                 </a>
                 <h3> GigGrabber</h3>
                 <div className="project-links">
@@ -33,7 +39,7 @@ function Portfolio() {
             </div>
             <div className="project">
                 <a href="https://arcane-taiga-56538.herokuapp.com/">
-                <img src="https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt=" Kristina Ahn"/>
+                <img src={img7} alt=" Kristina Ahn"/>
                 </a>
                 <h3> Tech-Blog</h3>
                 <div className="project-links">
@@ -43,7 +49,7 @@ function Portfolio() {
             </div>
             <div className="project">
                 <a href="https://stark-coast-39946.herokuapp.com">
-                <img src="https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt=" Kristina Ahn"/>
+                <img src={img5} alt=" Kristina Ahn"/>
                 </a>
                 <h3> Note Taker</h3>
                 <div className="project-links">
@@ -53,7 +59,7 @@ function Portfolio() {
             </div>
             <div className="project">
                 <a href="https://kriskris9.github.io/WeatherAPI/">
-                <img src="https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt=" Kristina Ahn"/>
+                <img src={img4} alt=" Kristina Ahn"/>
                 </a>
                 <h3> Weather API</h3>
                 <div className="project-links">
@@ -63,7 +69,7 @@ function Portfolio() {
             </div>
             <div className="project">
                 <a href="https://kriskris9.github.io/Work-Day-Scheduler/">
-                <img src="https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt=" Kristina Ahn"/>
+                <img src={img3} alt=" Kristina Ahn"/>
                 </a>
                 <h3> Work Day Scheduler</h3>
                 <div className="project-links">

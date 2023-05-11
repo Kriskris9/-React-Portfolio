@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import '../styles/Contact.css';
+import './styles/Contact.css';
 
 
 export default function ContactMe() {
@@ -38,6 +38,7 @@ export default function ContactMe() {
     // check if the email has a valid format
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   }
+
 
   return (
     <div className="contact-container">

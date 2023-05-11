@@ -3,6 +3,7 @@
   #portfolio {
   text-align: center;
   background-color: #c6faed;
+  height : 100vh;
 }
 
 .project {
@@ -10,12 +11,14 @@
   margin: 10px;
   display: inline-block;
   vertical-align: top;
+  
 }
 
 .project img {
-  max-width: 100%;
-  border-radius: 5px
-}
+ 
+    width: 75%;
+    height: auto;
+  }
 
 .project h3 {
   margin-top: 10px;

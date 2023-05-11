@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     background-color: #ffd9f5;
+    height: 100vh;
   }
   
   .profilePicture {
@@ -32,3 +33,28 @@
     text-align: center;
     margin: 40px;
   }
+  
+
+  @media only screen and (max-width: 375px) and (max-height: 812px) {
+    .AboutMe {
+    height: 100vh;
+    }
+    
+    .profilePicture {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    }
+    
+    .aboutMe {
+    font-size: 16px;
+    max-width: 350px;
+    margin: 10px;
+    padding: 10px;
+    }
+    
+    .aboutMeTitle{
+    font-size: 28px;
+    margin: 20px;
+    }
+    }
